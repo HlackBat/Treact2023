@@ -153,7 +153,9 @@ FEATURES
 
 .service{
     display: flex;
+    align-items: flex-start;
     width: calc(100% / 3);
+    margin-top: 12px;
 }
 
 .service__text{
@@ -166,12 +168,68 @@ h4{
 }
 
 .bubble__img{
-    border:1px solid #555;
+    border:1px solid rgba(90, 89, 90, 0.301);
     border-radius: 999px;
     padding: 20px;
     margin-right: 12px;
+    margin-top: 4px;
   }
 
   .features__title{
     font-size: 42px !important;
+  }
+
+  .service__para{
+    margin-right: 100px;
+  }
+
+  /* 
+  
+  QUALITYWORK
+  
+  */
+
+  .qualitywork__container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .qualitywork__image{
+    width: 80%;
+    margin-left: 120px;
+  }
+  
+  .qualitywork__container--wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btn__qw{
+    width: 40%;
+  }
+
+  /*
+  
+  GET STARTED
+  
+  */
+
+  .easy__imgsize{
+    width: 50%;
+  }
+
+  .get__started{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .steps__text--wrapper{
+    display: flex;
+  }
+
+  .para__wrapper{
+    display: flex;
+    flex-direction: column;
   }
