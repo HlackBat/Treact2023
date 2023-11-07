@@ -215,9 +215,14 @@ h4{
   
   */
 
-  .easy__imgsize{
+  .steps__figure--wrapper{
     width: 50%;
   }
+
+  .steps__figure--size{
+    width: 100%;
+  }
+
 
   .get__started{
     width: 50%;
@@ -228,6 +233,7 @@ h4{
   .steps__text--wrapper{
     display: flex;
     align-items: flex-start;
+    width: 50%;
   }
 
   .para__wrapper{
@@ -243,7 +249,59 @@ h4{
 
   }
 
-  .row__getstarted{
+  .row__wrapper{
+    display: flex;
+    margin-top: 32px;
+  }
+
+
+  /* 
+  
+  VALUES
+  
+  */
+
+  .value__img{
+    width: 35px;
+    height: 35px;
+    border-radius: 99px;
+    border: 1px solid rgba(0, 128, 0, 0.425);
+    padding: 8px;
+    background-color: rgba(0, 128, 0, 0.315);
+    
+  }
+
+  .value__title--wrapper{
     display: flex;
     flex-direction: row;
   }
+
+  .value__side--wrapper{
+    width: 50%;
+    text-align: left;
+  }
+
+  .values__items--wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 72px;
+  }
+
+  h2{
+    margin:0 24px;
+    font-size: 20px;
+  }
+
+  .value__text--para{
+    width: 45%;
+  }
+
+  .sub-title__bold{
+    font-weight: 700;
+  }
+
+  .value__wrapper--row{
+    display: flex;
+    flex-direction: row;
+  }
+  
