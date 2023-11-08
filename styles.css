@@ -217,6 +217,8 @@ h4{
 
   .steps__figure--wrapper{
     width: 50%;
+    padding-top: 80px;
+    margin-bottom: 120px;
   }
 
   .steps__figure--size{
@@ -268,7 +270,12 @@ h4{
     border: 1px solid rgba(0, 128, 0, 0.425);
     padding: 8px;
     background-color: rgba(0, 128, 0, 0.315);
-    
+    border: none;
+  }
+
+  .value__img--red{
+    background-color:rgb(245, 101, 101 , 0.6) ;
+    border: none;
   }
 
   .value__title--wrapper{
@@ -279,6 +286,11 @@ h4{
   .value__side--wrapper{
     width: 50%;
     text-align: left;
+  }
+
+  .value__both_block--wrapper{
+    display: flex;
+    flex-wrap: row;
   }
 
   .values__items--wrapper{
@@ -293,7 +305,7 @@ h4{
   }
 
   .value__text--para{
-    width: 45%;
+    width: 85%;
   }
 
   .sub-title__bold{
@@ -304,4 +316,209 @@ h4{
     display: flex;
     flex-direction: row;
   }
+
   
+  
+
+  /*
+
+  PLANS 
+  
+  */
+
+  .plans{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  .plan{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    padding: 32px
+  }
+
+  
+  .top__border{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(122, 120, 120, 0.2);
+    text-align: center;
+    border-top:8px solid rgb(56, 178, 172);
+    font-weight: bold;
+    border-radius: 5px;
+
+  }
+
+  .middle__border{
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 1px solid rgba(122, 120, 120, 0.2);
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .bottom__border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 1px solid rgba(122, 120, 120, 0.2);
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .title__plans{
+    text-align: center;
+  }
+
+  .price{
+    font-size: 48px;
+  }
+
+  .buynow1{
+    color:white ;
+    background-color:rgb(56, 178, 172) ;
+    border-radius: 99px;
+    width: 40%;
+    padding: 16px 32px;
+    border: none;
+  }
+
+  .buynow2{
+    color:#6415FF ;
+    background-color:rgb(247 250 252) ;
+    border-radius: 99px;
+    width: 40%;
+    padding: 16px 32px;
+    border: none;
+  }
+
+  .buynow3{
+    color:white ;
+    background-color: rgb(245, 101, 101) ;
+    border-radius: 99px;
+    width: 40%;
+    padding: 16px 32px;
+    border: none;
+  }
+
+  .color__businessplan{
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    color: white;
+  }
+
+  .business__top--border{
+    border-top:1px solid rgb(102, 126, 234);
+    border-radius: 8px;
+  }
+
+  .enterprise__top--border{
+    border-top:8px solid rgb(245, 101, 101);
+  }
+
+  .testimonials__wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 48px;
+  }
+
+  .figure__size{
+    width: 100%;
+  }
+
+  .banner__treact--background{
+    background-color: #6415FF;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 70%;
+    padding: 80px;
+    border-radius: 9px;
+    margin: 0 auto;
+    font-weight: bold;
+    }
+
+  .banner__size{
+    margin-top: 72px;
+  }
+
+  .btn__banner{
+    margin-left: 20px;
+    background-color: rgb(245, 101, 101) ;
+    margin-top: 10px;
+    height: 64px;
+    padding:12px 40px;
+    white-space: nowrap;
+  }
+
+  /* 
+  
+  footer 
+  
+  */
+
+  footer{
+    background-color: #6415FF;
+    width: 100%;
+    margin-top: 120px;
+  }
+
+  .links{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+  }
+
+  .link{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
+    color: white;
+  }
+
+  li{
+    list-style-type: none;
+    line-height: 32px;
+  }
+
+  .link__title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    
+  }
+
+  .footer__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 48px;
+    border-top: 1px solid gray
+  }
+
+  .footer__button{
+    border-radius:99px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer__logo{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .treactinc{
+    font-weight: bold;
+    margin-top: 10px;
+  }
