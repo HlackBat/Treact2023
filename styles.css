@@ -522,3 +522,91 @@ h4{
     font-weight: bold;
     margin-top: 10px;
   }
+
+ /* 
+
+SMALL PHONES, TABLETS, LARGE SMARTPHONES 
+
+*/
+
+@MEDIA (max-width: 768px) {
+  .header__column{
+    width:70%
+  }
+
+  .container__header,
+  .services,
+  .qualitywork__container--wrapper,
+  .row__wrapper,
+  .values__items--wrapper,
+  .plans,
+  .testimonials__wrapper,
+  .banner__treact--background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .input__button{
+    right: 20%;
+  }
+
+  .service{
+    width: 50%;
+  }
+
+  .plan{
+    width: 65%;
+  }
+
+  /* PHONES */
+
+}
+
+
+@media (max-width: 550px) { 
+  .header__column{
+    width:70%
+  }
+
+  .container__header,
+  .services,
+  .qualitywork__container--wrapper,
+  .row__wrapper,
+  .values__items--wrapper,
+  .plans,
+  .testimonials__wrapper,
+  .banner__treact--background,
+  .links,
+  .footer__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+  
+  .qualitywork__image{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .input__button{
+    right: 10%;
+  }
+
+  .service{
+    width: 100%;
+  }
+
+  .plan{
+    width: 65%;
+  }
+
+  .value__both_block--wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+}
