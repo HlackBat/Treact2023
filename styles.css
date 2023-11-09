@@ -42,7 +42,6 @@ menu burger
 
 */
 
-
 .menu__backdrop {
   position: fixed;
   left: 0px;
@@ -65,7 +64,7 @@ menu burger
   text-align: center;
 }
 
-.btn__menu{
+.btn__menu {
   position: absolute;
   right: 20px;
   top: 10px;
@@ -78,27 +77,24 @@ menu burger
   display: none;
 }
 
----
-
-.menu--open .menu__backdrop{
+.menu--open .menu__backdrop {
   visibility: visible;
   opacity: 1;
 }
 
-.menu--open{
+.menu--open {
   max-height: 100vh;
   overflow-y: hidden;
 }
 
-.menu__links{
+.menu__links {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.menu__list{
+.menu__list {
   padding: 12px 0;
-
 }
 
 .menu__link {
@@ -107,7 +103,7 @@ menu burger
   text-decoration: underline;
 }
 
-.btn__menu--close{
+.btn__menu--close {
   position: absolute;
   right: 20px;
   top: 10px;
@@ -609,7 +605,7 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
     width: 70%;
   }
 
-  .nav__links--list{
+  .nav__links--list {
     display: none;
   }
 
@@ -691,7 +687,7 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
     flex-direction: column;
   }
 
-  .nav__links--list{
+  .nav__links--list {
     display: none;
   }
 
