@@ -12,6 +12,10 @@
   margin: 0 auto;
 }
 
+.btn{
+  cursor: pointer;
+}
+
 h5,
 .trustedcustomers {
   opacity: 0.5;
